@@ -1,0 +1,10 @@
+name: python-mail-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - requests
+    - python-dotenv
+
